@@ -1,0 +1,24 @@
+{
+  "name": "terrain-quantized-mesh-download",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/postor/terrain-quantized-mesh-download.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/postor/terrain-quantized-mesh-download/issues"
+  },
+  "homepage": "https://github.com/postor/terrain-quantized-mesh-download#readme",
+  "dependencies": {
+    "fs-extra": "^9.1.0",
+    "puppeteer": "^8.0.0"
+  }
+}
