@@ -7,7 +7,7 @@ module.exports = async (url, buffer) => {
   let u = url.replace('https://api.maptiler.com/tiles/terrain-quantized-mesh', BASE_PATH)
   u = u.split('?')[0]
   await ensureDir(dirname(u))
-  await writeFile(u, buffer)
+  await writeFile(u, await buffer)
 }
 
 
